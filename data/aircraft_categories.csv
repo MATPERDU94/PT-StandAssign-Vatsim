@@ -1,0 +1,133 @@
+icao_type                                             , category                   , description
+# --- AIRBUS ---
+A318                                                  , M                          , Airbus A318
+A319                                                  , M                          , Airbus A319
+A320                                                  , M                          , Airbus A320
+A321                                                  , M                          , Airbus A321
+A19N                                                  , M                          , Airbus A319neo
+A20N                                                  , M                          , Airbus A320neo
+A21N                                                  , M                          , Airbus A321neo
+A306                                                  , H                          , Airbus A300-600
+A30B                                                  , H                          , Airbus A300B
+A310                                                  , H                          , Airbus A310
+A332                                                  , H                          , Airbus A330-200
+A333                                                  , H                          , Airbus A330-300
+A339                                                  , H                          , Airbus A330-900neo
+A342                                                  , H                          , Airbus A340-200
+A343                                                  , H                          , Airbus A340-300
+A345                                                  , H                          , Airbus A340-500
+A346                                                  , H                          , Airbus A340-600
+A359                                                  , H                          , Airbus A350-900
+A35K                                                  , H                          , Airbus A350-1000
+A388                                                  , H                          , Airbus A380-800
+BCS1                                                  , M                          , Airbus A220-100
+BCS3                                                  , M                          , Airbus A220-300
+# --- BOEING ---
+B712                                                  , M                          , Boeing 717-200
+B722                                                  , M                          , Boeing 727-200
+B732                                                  , M                          , Boeing 737-200
+B733                                                  , M                          , Boeing 737-300
+B734                                                  , M                          , Boeing 737-400
+B735                                                  , M                          , Boeing 737-500
+B736                                                  , M                          , Boeing 737-600
+B737                                                  , M                          , Boeing 737-700
+B738                                                  , M                          , Boeing 737-800
+B739                                                  , M                          , Boeing 737-900
+B37M                                                  , M                          , Boeing 737 MAX 7
+B38M                                                  , M                          , Boeing 737 MAX 8
+B39M                                                  , M                          , Boeing 737 MAX 9
+B741                                                  , H                          , Boeing 747-100
+B742                                                  , H                          , Boeing 747-200
+B743                                                  , H                          , Boeing 747-300
+B744                                                  , H                          , Boeing 747-400
+B748                                                  , H                          , Boeing 747-8
+B752                                                  , M                          , Boeing 757-200
+B753                                                  , M                          , Boeing 757-300
+B762                                                  , H                          , Boeing 767-200
+B763                                                  , H                          , Boeing 767-300
+B764                                                  , H                          , Boeing 767-400
+B772                                                  , H                          , Boeing 777-200
+B773                                                  , H                          , Boeing 777-300
+B77W                                                  , H                          , Boeing 777-300ER
+B778                                                  , H                          , Boeing 777-8
+B779                                                  , H                          , Boeing 777-9
+B788                                                  , H                          , Boeing 787-8
+B789                                                  , H                          , Boeing 787-9
+B78X                                                  , H                          , Boeing 787-10
+# --- CARGO / FREIGHTER (Muitos usam os mesmos códigos, mas alguns específicos) ---
+B77F                                                  , H                          , Boeing 777F
+B74F                                                  , H                          , Boeing 747-400F
+A33F                                                  , H                          , Airbus A330-200F
+# --- EMBRAER ---
+E110                                                  , L                          , Embraer EMB 110 Bandeirante
+E120                                                  , L                          , Embraer EMB 120 Brasilia
+E135                                                  , M                          , Embraer ERJ 135
+E145                                                  , M                          , Embraer ERJ 145
+E170                                                  , M                          , Embraer 170
+E175                                                  , M                          , Embraer 175
+E190                                                  , M                          , Embraer 190
+E195                                                  , M                          , Embraer 195
+E290                                                  , M                          , Embraer E190-E2
+E295                                                  , M                          , Embraer E195-E2
+# --- BOMBARDIER / CRJ ---
+CRJ2                                                  , M                          , Bombardier CRJ-200
+CRJ7                                                  , M                          , Bombardier CRJ-700
+CRJ9                                                  , M                          , Bombardier CRJ-900
+CRJX                                                  , M                          , Bombardier CRJ-1000
+# --- ATR & DASH ---
+AT43                                                  , M                          , ATR 42-300
+AT45                                                  , M                          , ATR 42-500
+AT72                                                  , M                          , ATR 72-200
+AT75                                                  , M                          , ATR 72-500
+AT76                                                  , M                          , ATR 72-600
+DH8A                                                  , M                          , De Havilland Dash 8-100
+DH8B                                                  , M                          , De Havilland Dash 8-200
+DH8C                                                  , M                          , De Havilland Dash 8-300
+DH8D                                                  , M                          , De Havilland Dash 8-400
+# --- MCDONNELL DOUGLAS ---
+MD11                                                  , H                          , McDonnell Douglas MD-11
+MD82                                                  , M                          , McDonnell Douglas MD-82
+MD83                                                  , M                          , McDonnell Douglas MD-83
+MD87                                                  , M                          , McDonnell Douglas MD-87
+MD88                                                  , M                          , McDonnell Douglas MD-88
+# --- FOKKER ---
+F50                                                   , M                          , Fokker 50
+F70                                                   , M                          , Fokker 70
+F100                                                  , M                          , Fokker 100
+# --- AVIAÇÃO GERAL / LIGHT (L) ---
+C150                                                  , L                          , Cessna 150
+C152                                                  , L                          , Cessna 152
+C172                                                  , L                          , Cessna 172 Skyhawk
+C182                                                  , L                          , Cessna 182 Skylane
+C206                                                  , L                          , Cessna 206 Stationair
+C208                                                  , L                          , Cessna 208 Caravan
+C210                                                  , L                          , Cessna 210 Centurion
+SR20                                                  , L                          , Cirrus SR20
+SR22                                                  , L                          , Cirrus SR22
+DA40                                                  , L                          , Diamond DA40 Diamond Star
+DA42                                                  , L                          , Diamond DA42 Twin Star
+DA62                                                  , L                          , Diamond DA62
+PA28                                                  , L                          , Piper PA-28 Cherokee
+PA34                                                  , L                          , Piper PA-34 Seneca
+PA46                                                  , L                          , Piper PA-46 Malibu
+BE20                                                  , L                          , Beechcraft King Air 200
+BE36                                                  , L                          , Beechcraft Bonanza
+BE58                                                  , L                          , Beechcraft Baron 58
+B350                                                  , L                          , Beechcraft King Air 350
+TBM7                                                  , L                          , Socata TBM 700
+TBM9                                                  , L                          , Socata TBM 900
+PC12                                                  , L                          , Pilatus PC-12
+PC24                                                  , L                          , Pilatus PC-24
+# --- JATOS EXECUTIVOS (LIGHT) ---
+C25A                                                  , L                          , Cessna Citation CJ2
+C25C                                                  , L                          , Cessna Citation CJ3
+C56X                                                  , L                          , Cessna Citation Excel
+C68A                                                  , L                          , Cessna Citation Latitude
+E55P                                                  , L                          , Embraer Phenom 300
+GLF5                                                  , L                          , Gulfstream V
+GLF6                                                  , L                          , Gulfstream G650
+LJ45                                                  , L                          , Learjet 45
+# --- HELICÓPTEROS (LIGHT) ---
+EC45                                                  , L                          , Eurocopter EC145
+R44                                                   , L                          , Robinson R44
+H60                                                   , L                          , Sikorsky UH-60 Black Hawk (ou variantes)

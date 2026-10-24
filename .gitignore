@@ -1,0 +1,5 @@
+data/lppr_voos_ativos.csv
+data/atribuicoes_lppr.csv
+__pycache__/
+*.pyc
+data/lppr_stands_ocupacao.csv

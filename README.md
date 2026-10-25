@@ -41,21 +41,32 @@ C'est la partie la plus longue, mais la plus importante.
 - Complétez la table au fil des tests.
 
 ## Étape 4 : Détecter les contrôleurs en ligne (1 jour)
-- Lisez la liste des contrôleurs du flux VATSIM.
+- <mark>Lisez la liste des contrôleurs du flux VATSIM.</mark>
 - <mark>Considérez que le système est actif s'il n'y a aucun contrôleur `LPPR_` de type Delivery, Ground ou Tower.</mark>
-- Ajoutez un délai de 2 à 3 cycles avant tout changement d'état, pour éviter les allers-retours.
+- <mark>Ajoutez un délai de 2 à 3 cycles avant tout changement d'état, pour éviter les allers-retours.</mark>
 
 ## Étape 5 : Écrire le moteur d'attribution (3 à 5 jours)
-- Sélectionnez les avions en approche vers LPPR.
-- Choisissez le stand : compatible avec la catégorie, libre, avec priorité à la compagnie.
-- Gardez en mémoire les stands réservés et libérez-les quand le pilote se déconnecte.
-- Gérez les cas limites : plus de stand libre, stand devenu occupé avant l'arrivée.
-- Dans un premier temps, affichez les attributions à l'écran sans rien envoyer.
+- <mark>Sélectionnez les avions en approche vers LPPR.</mark>
+- <mark>Choisissez le stand : compatible avec la catégorie, libre, avec priorité à la compagnie.</mark>
+- <mark>Gardez en mémoire les stands réservés et libérez-les quand le pilote se déconnecte.</mark>
+- <mark>Gérez les cas limites : plus de stand libre, stand devenu occupé avant l'arrivée.</mark>
+- <mark>Dans un premier temps, affichez les attributions à l'écran sans rien envoyer.</mark>
 
 ## Étape 6 : Brancher l'envoi Hoppie (1 à 2 jours)
 - Envoyez le télex une seule fois par avion.
 - Gérez les erreurs d'envoi (le réseau Hoppie n'est pas toujours fiable).
 - Écrivez un journal de tout ce qui est envoyé, pour comprendre les décisions.
+
+
+
+
+===================================================
+===================================================
+
+
+
+
+
 
 ## Étape 7 : Tester (1 à 2 semaines)
 - Testez avec vos propres vols vers LPPR, avec plusieurs types d'avion.

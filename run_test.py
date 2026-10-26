@@ -57,7 +57,7 @@ def start_test_system():
     
     try:
         # 2. Abrir o Streamlit no primeiro plano
-        subprocess.run([sys.executable, "-m", "streamlit", "run", "dashboard.py"])
+        subprocess.run([sys.executable, "-m", "streamlit", "run", "frontend/dashboard.py"])
         
     except KeyboardInterrupt:
         print("\n🛑 A parar todos os processos de teste e a fechar o Dashboard...")

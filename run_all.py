@@ -61,7 +61,7 @@ def start_system():
         # 2. Abrir o Streamlit no primeiro plano
         # Como já estamos dentro do venv (graças ao truque lá em cima), 
         # o sys.executable já aponta para o Python correto.
-        subprocess.run([sys.executable, "-m", "streamlit", "run", "dashboard.py"])
+        subprocess.run([sys.executable, "-m", "streamlit", "run", "frontend/dashboard.py"])
         
     except KeyboardInterrupt:
         print("\n🛑 A parar todos os processos e a fechar o Dashboard...")

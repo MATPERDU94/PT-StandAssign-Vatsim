@@ -8,7 +8,8 @@ from pathlib import Path
 # ==========================================
 st.set_page_config(page_title="LPPR Stand Manager", page_icon="🛬", layout="wide")
 
-BASE_DIR = Path(__file__).resolve().parent
+# CORREÇÃO AQUI: Adicionar .parent.parent para subir da pasta 'frontend' para a raiz
+BASE_DIR = Path(__file__).resolve().parent.parent 
 DATA_DIR = BASE_DIR / "data"
 
 ATTR_FILE = DATA_DIR / "lppr_atribuicoes.csv"

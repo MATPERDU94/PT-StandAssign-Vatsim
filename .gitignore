@@ -1,8 +1,17 @@
+# Ficheiros gerados dinamicamente
 data/lppr_voos_ativos.csv
-data/atribuicoes_lppr.csv
+data/lppr_atribuicoes.csv
 data/lppr_stands_ocupacao.csv
 data/lppr_atribuicoes_teste.csv
+data/lppr_hoppie_enviados.csv
+data/lppr_hoppie_teste_enviados.csv
+
+# Logs
 logs/
 
+# Python
 __pycache__/
 *.pyc
+
+# Ambiente Virtual
+venv/

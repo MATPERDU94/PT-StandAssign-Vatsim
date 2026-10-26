@@ -19,7 +19,6 @@ Este projeto é um projeto pessoal, que tem por objetivo eu aprender no desenvol
 
 # Plan par étapes : stands automatiques sur Porto (LPPR)
 
-Les durées sont indicatives, à adapter à votre rythme.
 
 ## Étape 1 : Préparer l'environnement (1 jour)
 - <mark>Installez Python et VS Code.</mark>
@@ -29,7 +28,6 @@ Les durées sont indicatives, à adapter à votre rythme.
 - Alterar no vatsim_lppr_loop.py o REFRESH_RATE de 15s para 300s.
 
 ## Étape 2 : Construire la base de stands de Porto (3 à 7 jours)
-C'est la partie la plus longue, mais la plus importante.
 - <mark>Récupérez la liste des stands dans l'AIP Portugal (carte de stationnement de LPPR).</mark>
 - <mark>Relevez les coordonnées de chaque stand (OpenStreetMap ou QGIS).</mark>
 - <mark>Pour chaque stand, notez la catégorie max (L, M, H) et la compagnie préférée éventuelle.</mark>
@@ -38,7 +36,7 @@ C'est la partie la plus longue, mais la plus importante.
 ## Étape 3 : Déterminer la catégorie des avions (1 jour)
 - <mark>Faites une table type OACI vers L, M ou H.</mark>
 - Choisissez ce qui se passe avec un type inconnu (par exemple le classer en moyen, ou ne rien envoyer).
-- Complétez la table au fil des tests.
+- <mark>Complétez la table au fil des tests.</mark>
 
 ## Étape 4 : Détecter les contrôleurs en ligne (1 jour)
 - <mark>Lisez la liste des contrôleurs du flux VATSIM.</mark>
